@@ -1,3 +1,14 @@
+new Rellax('.rellax');
+
+new Parallax(document.getElementById('scene1'));
+new Parallax(document.getElementById('scene2'));
+new Parallax(document.getElementById('scene3'));
+new Parallax(document.getElementById('scene4'));
+new Parallax(document.getElementById('scene5'));
+new Parallax(document.getElementById('scene6'));
+new Parallax(document.getElementById('scene7'));
+new Parallax(document.getElementById('scene8'));
+
 const btnDarkMode = document.querySelector('.dark-mode-btn');
 
 if (localStorage.getItem('darkMode') === 'dark') {
